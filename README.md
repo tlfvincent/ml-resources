@@ -4,6 +4,11 @@ A collection of ML resources in Python
 
 ### Data Visualization
 
+- [Bokeh](https://github.com/bokeh/bokeh) - Bokeh is a Python library for creating interactive visualizations for modern web browsers. The documentation for this library can be found [here](https://docs.bokeh.org/en/latest/).
+- [Streamlit](https://github.com/streamlit/streamlit) - Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required. The documentation for this library can be found [here](https://streamlit.io/).
+- [Dash](https://github.com/plotly/dash) - Written on top of Plotly.js and React.js, Dash is ideal for building and deploying data apps with customized user interfaces. The documentation for this library can be found [here](https://dash.plotly.com/introduction).
+
+
 ### General Purpose (Tabular) Machine Learning
 
 ### Survival Analysis
