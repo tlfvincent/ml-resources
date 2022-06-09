@@ -7,12 +7,16 @@ A collection of ML resources in Python
 - [Altair](https://github.com/altair-viz/altair) - Altair is a declarative statistical visualization library for Python, based on Vega and Vega-Lite. The documentation for this library can be found [here](https://altair-viz.github.io/index.html)
 - [Bokeh](https://github.com/bokeh/bokeh) - Bokeh is a Python library for creating interactive visualizations for modern web browsers. The documentation for this library can be found [here](https://docs.bokeh.org/en/latest/).
 - [Dash](https://github.com/plotly/dash) - Written on top of Plotly.js and React.js, Dash is ideal for building and deploying data apps with customized user interfaces. The documentation for this library can be found [here](https://dash.plotly.com/introduction).
+- [matplotlib](https://github.com/matplotlib/matplotlib) - a comprehensive library for creating static, animated, and interactive visualizations in Python. The documentation for this library can be found [here](https://matplotlib.org/stable/).
+- [pandas-profiling](https://github.com/ydataai/pandas-profiling) - Create HTML profiling reports from pandas DataFrame objects. The documentation for this library can be found [here](https://pandas-profiling.ydata.ai/docs/master/index.html).
 - [Plotly](https://github.com/plotly/plotly.py) - Plotly's Python graphing library makes interactive, publication-quality graphs. The documentation for this library can be found [here](https://plotly.com/python/)
+- [seaborn](https://github.com/mwaskom/seaborn) - a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.. The documentation for this library can be found [here](https://seaborn.pydata.org/).
 - [Streamlit](https://github.com/streamlit/streamlit) - Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required. The documentation for this library can be found [here](https://streamlit.io/).
 
-- matplotlib
-- seaborn
-- pandas-profiling
+
+
+
+
 
 ### General Purpose (Tabular) Machine Learning
 
