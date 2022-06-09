@@ -15,12 +15,15 @@ A collection of ML resources in Python
 
 ### General Purpose (Tabular) Machine Learning
 
+- [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) - a Python package to tackle the curse of imbalanced datasets in Machine Learning. The documentation for this library can be found [here](https://imbalanced-learn.org/stable/).
+- [pycaret](https://github.com/pycaret/pycaret) - a low-code machine learning library in Python that automates machine learning workflows. The documentation for this library can be found [here](https://pycaret.org/).
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Multi-purpose Machine Learning library in Python. The documentation for this library can be found [here](https://scikit-learn.org/stable/user_guide.html).
 - [statsmodel](https://github.com/statsmodels/statsmodels) - a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. The documentation for this library can be found [here](https://www.statsmodels.org/stable/index.html).
 - [XGBoost](https://github.com/dmlc/xgboost) - XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. The documentation for this library can be found [here](https://xgboost.readthedocs.io/en/stable/).
 
 ### Time Series
 
+- [Auto_TS](https://github.com/AutoViML/Auto_TS) - Automatically build ARIMA, SARIMAX, VAR, FB Prophet and XGBoost Models on Time Series data sets with a Single Line of Code. The documentation for this library can be found [here](https://github.com/AutoViML/Auto_TS)
 - [darts](https://github.com/unit8co/darts) - a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The documentation for this library can be found [here](https://unit8co.github.io/darts/).
 - [luminol](https://github.com/linkedin/luminol) - a lightweight python library for time series data analysis. The two major functionalities it supports are anomaly detection and correlation. The documentation for this library can be found [here](https://github.com/linkedin/luminol).
 - [Prophet](https://github.com/facebook/prophet) - a library for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. The documentation for this library can be found [here](https://facebook.github.io/prophet/).
@@ -51,6 +54,6 @@ A collection of ML resources in Python
 
 ### Natural Language Processing
 
--[transformers](https://github.com/huggingface/transformers) - provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. The documentation for this library can be found [here](https://huggingface.co/docs/transformers/installation).
+- [transformers](https://github.com/huggingface/transformers) - provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. The documentation for this library can be found [here](https://huggingface.co/docs/transformers/installation).
 
 ### Computer Vision
