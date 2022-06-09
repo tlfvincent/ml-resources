@@ -13,11 +13,6 @@ A collection of ML resources in Python
 - [seaborn](https://github.com/mwaskom/seaborn) - a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.. The documentation for this library can be found [here](https://seaborn.pydata.org/).
 - [Streamlit](https://github.com/streamlit/streamlit) - Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required. The documentation for this library can be found [here](https://streamlit.io/).
 
-
-
-
-
-
 ### General Purpose (Tabular) Machine Learning
 
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Multi-purpose Machine Learning library in Python. The documentation for this library can be found [here](https://scikit-learn.org/stable/user_guide.html).
@@ -26,7 +21,11 @@ A collection of ML resources in Python
 
 ### Time Series
 
-- [Prophet](https://github.com/facebook/prophet) - a library for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. The documentation for this library can be found [here](https://facebook.github.io/prophet/)
+- [darts](https://github.com/unit8co/darts) - a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The documentation for this library can be found [here](https://unit8co.github.io/darts/).
+- [luminol](https://github.com/linkedin/luminol) - a lightweight python library for time series data analysis. The two major functionalities it supports are anomaly detection and correlation. The documentation for this library can be found [here](https://github.com/linkedin/luminol).
+- [Prophet](https://github.com/facebook/prophet) - a library for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. The documentation for this library can be found [here](https://facebook.github.io/prophet/).
+- [sktime](https://github.com/alan-turing-institute/sktime) - provides an easy-to-use, flexible and modular open-source framework for a wide range of time series machine learning tasks. The documentation for this library can be found [here](https://www.sktime.org/en/stable/).
+- [tsfresh](https://github.com/blue-yonder/tsfresh) - automates the extraction of relevant features from time series data. The documentation for this library can be found [here](https://tsfresh.readthedocs.io/en/latest/text/introduction.html)
 
 ### Survival Analysis
 
