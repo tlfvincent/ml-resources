@@ -16,6 +16,7 @@ A collection of ML resources in Python
 ### General Purpose (Tabular) Machine Learning
 
 - [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) - a Python package to tackle the curse of imbalanced datasets in Machine Learning. The documentation for this library can be found [here](https://imbalanced-learn.org/stable/).
+- [metric-learn](https://github.com/scikit-learn-contrib/metric-learn) - efficient Python implementations of several popular supervised and weakly-supervised metric learning algorithms. The documentation for this library can be found [here](http://contrib.scikit-learn.org/metric-learn/).
 - [pycaret](https://github.com/pycaret/pycaret) - a low-code machine learning library in Python that automates machine learning workflows. The documentation for this library can be found [here](https://pycaret.org/).
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Multi-purpose Machine Learning library in Python. The documentation for this library can be found [here](https://scikit-learn.org/stable/user_guide.html).
 - [statsmodel](https://github.com/statsmodels/statsmodels) - a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. The documentation for this library can be found [here](https://www.statsmodels.org/stable/index.html).
@@ -28,7 +29,9 @@ A collection of ML resources in Python
 - [luminol](https://github.com/linkedin/luminol) - a lightweight python library for time series data analysis. The two major functionalities it supports are anomaly detection and correlation. The documentation for this library can be found [here](https://github.com/linkedin/luminol).
 - [Prophet](https://github.com/facebook/prophet) - a library for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. The documentation for this library can be found [here](https://facebook.github.io/prophet/).
 - [sktime](https://github.com/alan-turing-institute/sktime) - provides an easy-to-use, flexible and modular open-source framework for a wide range of time series machine learning tasks. The documentation for this library can be found [here](https://www.sktime.org/en/stable/).
-- [tsfresh](https://github.com/blue-yonder/tsfresh) - automates the extraction of relevant features from time series data. The documentation for this library can be found [here](https://tsfresh.readthedocs.io/en/latest/text/introduction.html)
+- [statsforecast](https://github.com/Nixtla/statsforecast) - lightning fast forecasting with statistical and econometric models. The documentation for this library can be found [here](https://nixtla.github.io/statsforecast/#lightning-fast-forecasting-with-statistical-and-econometric-mode).
+- [tsfresh](https://github.com/blue-yonder/tsfresh) - automates the extraction of relevant features from time series data. The documentation for this library can be found [here](https://tsfresh.readthedocs.io/en/latest/text/introduction.html).
+- [pyts](https://github.com/johannfaouzi/pyts) - a Python package dedicated to time series classification. It aims to make time series classification easily accessible by providing preprocessing and utility tools, and implementations of several time series classification algorithms. The documentation for this library can be found [here](https://pyts.readthedocs.io/en/stable/).
 
 ### Survival Analysis
 
@@ -55,5 +58,6 @@ A collection of ML resources in Python
 ### Natural Language Processing
 
 - [transformers](https://github.com/huggingface/transformers) - provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. The documentation for this library can be found [here](https://huggingface.co/docs/transformers/installation).
+- [vaderSentiment](https://github.com/cjhutto/vaderSentiment) - a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
 
 ### Computer Vision
