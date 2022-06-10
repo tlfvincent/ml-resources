@@ -22,6 +22,14 @@ A collection of ML resources in Python
 - [statsmodel](https://github.com/statsmodels/statsmodels) - a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. The documentation for this library can be found [here](https://www.statsmodels.org/stable/index.html).
 - [XGBoost](https://github.com/dmlc/xgboost) - XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. The documentation for this library can be found [here](https://xgboost.readthedocs.io/en/stable/).
 
+### Hyper-parameter Optimization
+
+- [hyperopt](https://github.com/hyperopt/hyperopt) - distributed Asynchronous Hyper-parameter Optimization. The documentation for this library can be found [here](http://hyperopt.github.io/hyperopt/).
+- [optuna](https://github.com/optuna/optuna) - an open source hyperparameter optimization framework to automate hyperparameter search. The documentation for this library can be found [here](https://optuna.org/).
+- [ray](https://github.com/ray-project/ray) - an open source framework  packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. The documentation for this library can be found [here](https://docs.ray.io/en/latest/tune/index.html).
+- [scikit-optimize](https://github.com/scikit-optimize/scikit-optimize) - a simple and efficient library that implements several methods for sequential model-based optimization. The documentation for this library can be found [here](https://scikit-optimize.github.io/stable/index.html).
+- [tpot](https://github.com/EpistasisLab/tpot) - a Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. The documentation for this library can be found [here](http://epistasislab.github.io/tpot/).
+
 ### Time Series
 
 - [Auto_TS](https://github.com/AutoViML/Auto_TS) - Automatically build ARIMA, SARIMAX, VAR, FB Prophet and XGBoost Models on Time Series data sets with a Single Line of Code. The documentation for this library can be found [here](https://github.com/AutoViML/Auto_TS)
