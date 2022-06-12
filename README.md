@@ -16,6 +16,7 @@ A collection of ML resources in Python
 ### General Purpose (Tabular) Machine Learning
 
 - [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) - a Python package to tackle the curse of imbalanced datasets in Machine Learning. The documentation for this library can be found [here](https://imbalanced-learn.org/stable/).
+- [hummingbird](https://github.com/microsoft/hummingbird) - a library for compiling trained traditional ML models into tensor computations. The documentation for this library can be found [here](https://microsoft.github.io/hummingbird/).
 - [metric-learn](https://github.com/scikit-learn-contrib/metric-learn) - efficient Python implementations of several popular supervised and weakly-supervised metric learning algorithms. The documentation for this library can be found [here](http://contrib.scikit-learn.org/metric-learn/).
 - [pycaret](https://github.com/pycaret/pycaret) - a low-code machine learning library in Python that automates machine learning workflows. The documentation for this library can be found [here](https://pycaret.org/).
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Multi-purpose Machine Learning library in Python. The documentation for this library can be found [here](https://scikit-learn.org/stable/user_guide.html).
