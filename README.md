@@ -70,9 +70,9 @@ A collection of ML resources in Python
 ### Recommendation \& Ranking
 
 - [lightFM](https://github.com/lyst/lightfm) - LightFM is a Python implementation of a number of popular recommendation algorithms for both implicit and explicit feedback. The documentation for this library can be found [here](https://making.lyst.com/lightfm/docs/home.html).
-- [surprise](https://github.com/NicolasHug/Surprise) - A Python scikit for building and analyzing recommender systems. The documentation for this library can be found [here](http://surpriselib.com/).
-- [pyTerrier](https://github.com/terrier-org/pyterrier) - A Python framework for performing information retrieval experiments and implementing learn-to-rank pipelines. The documentation for this library can be found [here](https://pyterrier.readthedocs.io/en/latest/).
-
+- [surprise](https://github.com/NicolasHug/Surprise) - a Python scikit for building and analyzing recommender systems. The documentation for this library can be found [here](http://surpriselib.com/).
+- [pyTerrier](https://github.com/terrier-org/pyterrier) - a Python framework for performing information retrieval experiments and implementing learn-to-rank pipelines. The documentation for this library can be found [here](https://pyterrier.readthedocs.io/en/latest/).
+- [python-recsys](https://github.com/ocelma/python-recsys) - a python library for implementing a recommender system. The documentation for this library can be found [here](http://ocelma.net/software/python-recsys/build/html/).
 
 ### Natural Language Processing
 
@@ -80,6 +80,7 @@ A collection of ML resources in Python
 Fuzzy String Matching in Python. The documentation for this library can be found [here](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/).
 - [gensim](https://github.com/RaRe-Technologies/gensim) - a free open-source Python library for representing documents as semantic vectors. The documentation for this library can be found [here](https://radimrehurek.com/gensim/auto_examples/index.html).
 - [NLTK](https://github.com/nltk/nltk) - a leading platform for building Python programs to work with human language data. The documentation for this library can be found [here](https://www.nltk.org/).
+- [Stanford CoreNLP Python](https://github.com/dasmith/stanford-corenlp-python) - a Python wrapper for Stanford CoreNLP tools. 
 - [spacy](https://github.com/explosion/spaCy) - a library for advanced Natural Language Processing in Python and Cython. The documentation for this library can be found [here](https://spacy.io/usage).
 - [textblob](https://github.com/sloria/TextBlob) - a Python library for processing textual data. It provides a consistent API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction. The documentation for this library can be found [here](https://spacy.io/usage).
 - [transformers](https://github.com/huggingface/transformers) - provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. The documentation for this library can be found [here](https://huggingface.co/docs/transformers/installation).
