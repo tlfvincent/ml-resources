@@ -19,14 +19,19 @@ A collection of ML resources in Python
 
 - [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) - a Python package to tackle the curse of imbalanced datasets in Machine Learning. The documentation for this library can be found [here](https://imbalanced-learn.org/stable/).
 - [hummingbird](https://github.com/microsoft/hummingbird) - a library for compiling trained traditional ML models into tensor computations. The documentation for this library can be found [here](https://microsoft.github.io/hummingbird/).
-- [lime](https://github.com/marcotcr/lime) - a Python library to help explain the predictions of any machine learning classifier. A more thorough explanation of the methodology is available [here](https://arxiv.org/abs/1602.04938).
 - [metric-learn](https://github.com/scikit-learn-contrib/metric-learn) - efficient Python implementations of several popular supervised and weakly-supervised metric learning algorithms. The documentation for this library can be found [here](http://contrib.scikit-learn.org/metric-learn/).
 - [pycaret](https://github.com/pycaret/pycaret) - a low-code machine learning library in Python that automates machine learning workflows. The documentation for this library can be found [here](https://pycaret.org/).
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Multi-purpose Machine Learning library in Python. The documentation for this library can be found [here](https://scikit-learn.org/stable/user_guide.html).
-- [shap](https://github.com/slundberg/shap) - a game theoretic approach to explain the output of any machine learning model.
 - [statsmodel](https://github.com/statsmodels/statsmodels) - a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. The documentation for this library can be found [here](https://www.statsmodels.org/stable/index.html).
 - [XGBoost](https://github.com/dmlc/xgboost) - XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. The documentation for this library can be found [here](https://xgboost.readthedocs.io/en/stable/).
 
+
+### ML Explanability and Feature Interpretation
+
+- [eli5](https://github.com/eli5-org/eli5) - a Python library for debugging/inspecting machine learning classifiers and explaining their predictions. The documentation for this library can be found [here](https://eli5.readthedocs.io/en/latest/overview.html).
+- [lime](https://github.com/marcotcr/lime) - a Python library to help explain the predictions of any machine learning classifier. A more thorough explanation of the methodology is available [here](https://arxiv.org/abs/1602.04938).
+- [shap](https://github.com/slundberg/shap) - a game theoretic approach to explain the output of any machine learning model.
+- [yellowbrick](https://github.com/DistrictDataLabs/yellowbrick/tree/main) - a Python library that provides a suite of visual analysis and diagnostic tools to facilitate machine learning model selection. The documentation for this library can be found [here](https://www.scikit-yb.org/en/latest/).
 
 ### Hyper-parameter Optimization
 
