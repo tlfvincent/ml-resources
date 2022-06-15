@@ -19,6 +19,7 @@ A collection of ML resources in Python
 
 ### General Purpose (Tabular) Machine Learning
 
+- [annoy](https://github.com/spotify/annoy) - approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk.
 - [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) - a Python package to tackle the curse of imbalanced datasets in Machine Learning. The documentation for this library can be found [here](https://imbalanced-learn.org/stable/).
 - [hummingbird](https://github.com/microsoft/hummingbird) - a library for compiling trained traditional ML models into tensor computations. The documentation for this library can be found [here](https://microsoft.github.io/hummingbird/).
 - [lifetimes](https://github.com/CamDavidsonPilon/lifetimes) - a Python library to help model customer behavior and measure Customer Lifetime Value. The documentation for this library can be found [here](https://lifetimes.readthedocs.io/en/latest/index.html).
@@ -80,6 +81,7 @@ A collection of ML resources in Python
 
 ### Natural Language Processing
 
+- [bert-embedding](https://github.com/imgarylai/bert-embedding) - token level embeddings from BERT model on mxnet and gluonnlp. The documentation for this library can be found [here](https://bert-embedding.readthedocs.io/en/latest/).
 - [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) - About
 Fuzzy String Matching in Python. The documentation for this library can be found [here](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/).
 - [gensim](https://github.com/RaRe-Technologies/gensim) - a free open-source Python library for representing documents as semantic vectors. The documentation for this library can be found [here](https://radimrehurek.com/gensim/auto_examples/index.html).
