@@ -1,6 +1,6 @@
 # Machine Learning Resources
 
-A collection of ML resources in Python
+An opiniated collection of Python-centric ML resources that I have found to be particularly useful during my time in Data Science.
 
 ### Data Visualization
 
@@ -83,6 +83,7 @@ A collection of ML resources in Python
 ### Natural Language Processing
 
 - [bert-embedding](https://github.com/imgarylai/bert-embedding) - token level embeddings from BERT model on mxnet and gluonnlp. The documentation for this library can be found [here](https://bert-embedding.readthedocs.io/en/latest/).
+- [fastText](https://github.com/facebookresearch/fastText) - a library for efficient learning of word representations and sentence classification. The documentation for this library can be found [here](https://fasttext.cc/).
 - [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) - About
 Fuzzy String Matching in Python. The documentation for this library can be found [here](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/).
 - [gensim](https://github.com/RaRe-Technologies/gensim) - a free open-source Python library for representing documents as semantic vectors. The documentation for this library can be found [here](https://radimrehurek.com/gensim/auto_examples/index.html).
@@ -97,3 +98,7 @@ Fuzzy String Matching in Python. The documentation for this library can be found
 - [vaderSentiment](https://github.com/cjhutto/vaderSentiment) - a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
 
 ### Computer Vision
+
+
+- [NiLearn]
+- [OpenCV]
