@@ -84,6 +84,7 @@ An opiniated collection of Python-centric ML resources that I have found to be p
 
 - [bert-embedding](https://github.com/imgarylai/bert-embedding) - token level embeddings from BERT model on mxnet and gluonnlp. The documentation for this library can be found [here](https://bert-embedding.readthedocs.io/en/latest/).
 - [fastText](https://github.com/facebookresearch/fastText) - a library for efficient learning of word representations and sentence classification. The documentation for this library can be found [here](https://fasttext.cc/).
+- [flair](https://github.com/flairNLP/flair) - a very simple framework for NLP that ships with state-of-the-art models for a range of NLP tasks. The documentation for this library can be found [here](https://github.com/flairNLP/flair/tree/master/resources/docs).
 - [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) - About
 Fuzzy String Matching in Python. The documentation for this library can be found [here](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/).
 - [gensim](https://github.com/RaRe-Technologies/gensim) - a free open-source Python library for representing documents as semantic vectors. The documentation for this library can be found [here](https://radimrehurek.com/gensim/auto_examples/index.html).
@@ -96,6 +97,7 @@ Fuzzy String Matching in Python. The documentation for this library can be found
 - [pattern](https://github.com/clips/pattern) - a web mining module for Python, with tools for scraping, natural language processing, machine learning, network analysis and visualization. The documentation for this library can be found [here](https://github.com/clips/pattern/wiki).
 - [polyglot](https://github.com/aboSamoor/polyglot) - supports various multilingual applications and offers a wide range of analysis and broad language coverage. The documentation for this library can be found [here](https://polyglot.readthedocs.io/en/latest/)
 - [vaderSentiment](https://github.com/cjhutto/vaderSentiment) - a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
+- [word_forms](https://github.com/gutfeeling/word_forms) - accurately generate all possible forms of an English word. The documentation for this library can be found [here](https://github.com/gutfeeling/word_forms/blob/master/README.md)
 
 ### Computer Vision
 
