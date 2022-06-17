@@ -82,6 +82,7 @@ An opiniated collection of Python-centric ML resources that I have found to be p
 
 ### Natural Language Processing
 
+- [allennlp](https://github.com/allenai/allennlp) - an open-source NLP research library, built on PyTorch. The documentation for this library can be found [here](https://www.allennlp.org/).
 - [bert-embedding](https://github.com/imgarylai/bert-embedding) - token level embeddings from BERT model on mxnet and gluonnlp. The documentation for this library can be found [here](https://bert-embedding.readthedocs.io/en/latest/).
 - [fastText](https://github.com/facebookresearch/fastText) - a library for efficient learning of word representations and sentence classification. The documentation for this library can be found [here](https://fasttext.cc/).
 - [flair](https://github.com/flairNLP/flair) - a very simple framework for NLP that ships with state-of-the-art models for a range of NLP tasks. The documentation for this library can be found [here](https://github.com/flairNLP/flair/tree/master/resources/docs).
