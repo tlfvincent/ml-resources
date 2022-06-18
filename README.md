@@ -56,6 +56,7 @@ An opiniated collection of Python-centric ML resources that I have found to be p
 - [sktime](https://github.com/alan-turing-institute/sktime) - provides an easy-to-use, flexible and modular open-source framework for a wide range of time series machine learning tasks. The documentation for this library can be found [here](https://www.sktime.org/en/stable/).
 - [statsforecast](https://github.com/Nixtla/statsforecast) - lightning fast forecasting with statistical and econometric models. The documentation for this library can be found [here](https://nixtla.github.io/statsforecast/#lightning-fast-forecasting-with-statistical-and-econometric-mode).
 - [tsfresh](https://github.com/blue-yonder/tsfresh) - automates the extraction of relevant features from time series data. The documentation for this library can be found [here](https://tsfresh.readthedocs.io/en/latest/text/introduction.html).
+- [pyod](https://github.com/yzhao062/pyod) - a Python toolkit that provides access to a wide range of outlier detection algorithms for detecting outliers in multivariate data. The documentation for this library can be found [here](https://pyod.readthedocs.io/en/latest/).
 - [pyts](https://github.com/johannfaouzi/pyts) - a Python package dedicated to time series classification. It aims to make time series classification easily accessible by providing preprocessing and utility tools, and implementations of several time series classification algorithms. The documentation for this library can be found [here](https://pyts.readthedocs.io/en/stable/).
 
 ### Survival Analysis
