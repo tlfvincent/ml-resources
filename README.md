@@ -39,6 +39,7 @@ Its focus is on supervised classification with several classifiers available: SV
 
 - [eli5](https://github.com/eli5-org/eli5) - a Python library for debugging/inspecting machine learning classifiers and explaining their predictions. The documentation for this library can be found [here](https://eli5.readthedocs.io/en/latest/overview.html).
 - [lime](https://github.com/marcotcr/lime) - a Python library to help explain the predictions of any machine learning classifier. A more thorough explanation of the methodology is available [here](https://arxiv.org/abs/1602.04938).
+- [omniXAI](https://github.com/salesforce/OmniXAI) - a Python machine-learning library for explainable AI (XAI), offering omni-way explainable AI and interpretable machine learning capabilities. The documentation for this library can be found [here](https://opensource.salesforce.com/OmniXAI/latest/index.html).
 - [shap](https://github.com/slundberg/shap) - a game theoretic approach to explain the output of any machine learning model.
 - [yellowbrick](https://github.com/DistrictDataLabs/yellowbrick/tree/main) - a Python library that provides a suite of visual analysis and diagnostic tools to facilitate machine learning model selection. The documentation for this library can be found [here](https://www.scikit-yb.org/en/latest/).
 
