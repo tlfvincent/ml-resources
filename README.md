@@ -107,6 +107,10 @@ Fuzzy String Matching in Python. The documentation for this library can be found
 
 ### Computer Vision
 
-
 - [NiLearn](https://github.com/nilearn/nilearn) - makes it easy to use many advanced machine learning, pattern recognition and multivariate statistical techniques on neuroimaging data. The documentation for this library can be found [here](https://nilearn.github.io/stable/user_guide.html).
 - [OpenCV](https://github.com/opencv/opencv) - an open-source library that includes several hundreds of computer vision algorithms. The documentation for this library can be found [here](https://docs.opencv.org/4.x/).
+
+### Miscalleneous
+
+- [Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#39-classes) - a good style guide to follow when developing in Python.
+- [black](https://github.com/psf/black) - the uncompromising Python code formatter.
