@@ -101,12 +101,12 @@ Fuzzy String Matching in Python. The documentation for this library can be found
 - [textblob](https://github.com/sloria/TextBlob) - a Python library for processing textual data. It provides a consistent API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction. The documentation for this library can be found [here](https://spacy.io/usage).
 - [transformers](https://github.com/huggingface/transformers) - provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio. The documentation for this library can be found [here](https://huggingface.co/docs/transformers/installation).
 - [pattern](https://github.com/clips/pattern) - a web mining module for Python, with tools for scraping, natural language processing, machine learning, network analysis and visualization. The documentation for this library can be found [here](https://github.com/clips/pattern/wiki).
-- [polyglot](https://github.com/aboSamoor/polyglot) - supports various multilingual applications and offers a wide range of analysis and broad language coverage. The documentation for this library can be found [here](https://polyglot.readthedocs.io/en/latest/)
+- [polyglot](https://github.com/aboSamoor/polyglot) - supports various multilingual applications and offers a wide range of analysis and broad language coverage. The documentation for this library can be found [here](https://polyglot.readthedocs.io/en/latest/).
 - [vaderSentiment](https://github.com/cjhutto/vaderSentiment) - a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
-- [word_forms](https://github.com/gutfeeling/word_forms) - accurately generate all possible forms of an English word. The documentation for this library can be found [here](https://github.com/gutfeeling/word_forms/blob/master/README.md)
+- [word_forms](https://github.com/gutfeeling/word_forms) - accurately generate all possible forms of an English word. The documentation for this library can be found [here](https://github.com/gutfeeling/word_forms/blob/master/README.md).
 
 ### Computer Vision
 
 
-- [NiLearn]
-- [OpenCV]
+- [NiLearn](https://github.com/nilearn/nilearn) - makes it easy to use many advanced machine learning, pattern recognition and multivariate statistical techniques on neuroimaging data. The documentation for this library can be found [here](https://nilearn.github.io/stable/user_guide.html).
+- [OpenCV](https://github.com/opencv/opencv) - an open-source library that includes several hundreds of computer vision algorithms. The documentation for this library can be found [here](https://docs.opencv.org/4.x/).
