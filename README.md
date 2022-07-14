@@ -114,3 +114,4 @@ Fuzzy String Matching in Python. The documentation for this library can be found
 
 - [Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#39-classes) - a good style guide to follow when developing in Python.
 - [black](https://github.com/psf/black) - the uncompromising Python code formatter.
+- [jupytext](https://github.com/mwouts/jupytext) - Have you always wished Jupyter notebooks were plain text documents? Wished you could edit them in your favorite IDE? And get clear and meaningful diffs when doing version control? Then… Jupytext may well be the tool you’re looking for!
