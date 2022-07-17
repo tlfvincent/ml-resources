@@ -9,7 +9,7 @@ import pandas as pd
 _URL = "https://github.com/tlfvincent/ml-resources/blob/main/README.md"
 
 # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-_GITHUB_TOKEN = "my_github_token"
+_GITHUB_TOKEN = "your_github_token"
 
 
 def extract_data(url):
@@ -61,30 +61,46 @@ def extract_links(data):
     return github_repo_links
 
 
-def extract_github_repo_statistics(github_repo_links):
+def extract_github_repo_statistics(github_repo_links, print_out=True):
     """
 
     Parameters
     ----------
     github_repo_links : list
         Contains links to Github repositories extracted from input data.
+    print_out : boolean, default to True
+        If set to True, then print out results
 
     Returns
     -------
-
+    github_stats : dict-like
     """
     g = Github(_GITHUB_TOKEN)
+
+    github_stats = {}
 
     for link in github_repo_links[0:5]:
         try:
             repo_name = link.split('github.com/')[1]
             repo_stats = g.get_repo(repo_name)
-            print(f"Repository {repo_name}:")
-            print(f"Star Count: {repo_stats.stargazers_count}")
-            print(f"Last Modification Date: {repo_stats.last_modified}")
-            print("---------------------")
+
+            github_stats[repo_name] = [
+                repo_stats.watchers_count,
+                repo_stats.subscribers_count,
+                repo_stats.get_commits()[0].last_modified,
+                repo_stats.get_releases()[0].published_at,
+                len(repo_stats.get_stats_contributors())
+            ]
+
+            if print_out:
+                print(f"Repository {repo_name}:")
+                print(f"Star Count: {repo_stats.stargazers_count}")
+                print(f"Last Modification Date: {repo_stats.last_modified}")
+                print("---------------------")
         except:
             pass
+
+    return github_stats
 
 
 if __name__ == "__main__":
@@ -93,4 +109,18 @@ if __name__ == "__main__":
 
     github_repo_links = extract_links(html_data)
 
-    extract_github_repo_statistics(github_repo_links)
+    github_stats = extract_github_repo_statistics(github_repo_links)
+
+    results = pd.DataFrame.from_dict(
+        github_stats,
+        orient="index",
+        columns=[
+            "watchers_cnt",
+            "subscribers_cnt",
+            "last_modified_at",
+            "last_release_at",
+            "contributor_cnt"
+        ]
+    )
+
+    print(results)
