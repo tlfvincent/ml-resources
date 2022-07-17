@@ -1,3 +1,16 @@
+"""
+extract
+
+This module extracts Github statistics for repositories listed in the
+`https://github.com/tlfvincent/ml-resources/blob/main/README.md` file. The
+statistics collected are:
+- watchers_cnt: number of watchers on the repository
+- subscribers_cnt: number of watchers on the repository
+- last_modified_at: last timestamp when repository was modified
+- last_release_at: last release timestamp for the repository
+- contributor_cnt: number of contributors to the repository
+"""
+
 import markdown
 import ssl
 import urllib.request
@@ -104,7 +117,9 @@ def extract_github_repo_statistics(github_repo_links, print_out=True):
 
 
 if __name__ == "__main__":
-
+    """
+    This is the entrypoint for the module.
+    """
     html_data = extract_data(_URL)
 
     github_repo_links = extract_links(html_data)
