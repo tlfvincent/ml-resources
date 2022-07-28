@@ -109,6 +109,7 @@ Fuzzy String Matching in Python. The documentation for this library can be found
 
 - [NiLearn](https://github.com/nilearn/nilearn) - makes it easy to use many advanced machine learning, pattern recognition and multivariate statistical techniques on neuroimaging data. The documentation for this library can be found [here](https://nilearn.github.io/stable/user_guide.html).
 - [OpenCV](https://github.com/opencv/opencv) - an open-source library that includes several hundreds of computer vision algorithms. The documentation for this library can be found [here](https://docs.opencv.org/4.x/).
+- [Scikit-Image](https://github.com/scikit-image/scikit-image) - a  popular and open-source Python library that includes a collection of algorithms for image processing. The documentation for this library can be found [here](https://scikit-image.org/docs/stable/).
 
 ### Miscalleneous
 
