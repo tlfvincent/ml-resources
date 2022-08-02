@@ -22,8 +22,7 @@ import pandas as pd
 _URL = "https://github.com/tlfvincent/ml-resources/blob/main/README.md"
 
 # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-# _GITHUB_TOKEN = "your_github_token"
-_GITHUB_TOKEN = "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"
+_GITHUB_TOKEN = "your_github_token"
 
 
 def extract_data(url):
