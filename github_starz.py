@@ -11,6 +11,7 @@ statistics collected are:
 - contributor_cnt: number of contributors to the repository
 """
 
+import os
 import markdown
 import re
 
@@ -21,7 +22,7 @@ import pandas as pd
 _URL = "https://github.com/tlfvincent/ml-resources/blob/main/README.md"
 
 # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-_GITHUB_TOKEN = "your_github_token"
+token = os.environ["PERSONAL_GITHUB_ACCESS_TOKEN"]
 
 
 def extract_links(data):
@@ -98,7 +99,7 @@ if __name__ == "__main__":
     This is the entrypoint for the module.
     """
 
-    gh = Github(_GITHUB_TOKEN)
+    gh = Github(token)
 
     with open("README.md", "r") as f:
         readme = f.read()
