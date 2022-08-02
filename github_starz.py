@@ -47,11 +47,13 @@ def extract_links(data):
     return github_repo_links
 
 
-def extract_github_repo_statistics(github_repo_links, print_out=True):
+def extract_github_repo_statistics(gh, github_repo_links, print_out=True):
     """
 
     Parameters
     ----------
+    gh : github.MainClass.Github
+        Github connection
     github_repo_links : list
         Contains links to Github repositories extracted from input data.
     print_out : boolean, default to True
@@ -61,14 +63,13 @@ def extract_github_repo_statistics(github_repo_links, print_out=True):
     -------
     github_stats : dict-like
     """
-    g = Github(_GITHUB_TOKEN)
 
     github_stats = {}
 
     for link in github_repo_links[0:5]:
         try:
             repo_name = link.split('github.com/')[1]
-            repo_stats = g.get_repo(repo_name)
+            repo_stats = gh.get_repo(repo_name)
 
             github_stats[repo_name] = [
                 repo_stats._name.value,
@@ -97,12 +98,14 @@ if __name__ == "__main__":
     This is the entrypoint for the module.
     """
 
+    gh = Github(_GITHUB_TOKEN)
+
     with open("README.md", "r") as f:
         readme = f.read()
 
     github_repo_links = extract_links(readme)
 
-    github_stats = extract_github_repo_statistics(github_repo_links)
+    github_stats = extract_github_repo_statistics(gh, github_repo_links)
 
     results = pd.DataFrame.from_dict(
         github_stats,
@@ -120,3 +123,18 @@ if __name__ == "__main__":
     )
 
     repo_markdown = results.to_markdown(index=False)
+
+    readme = (
+        readme + "\n\n\n" + repo_markdown
+    )
+
+    this_repo = g.get_repo("tlfvincent/ml-resources")
+    contents = this_repo.get_contents("README.md", ref="main")
+
+    this_repo.update_file(
+        contents.path,
+        "Automatic Update From GitHub Actions",
+        readme,
+        contents.sha,
+        branch="main"
+    )
