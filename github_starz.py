@@ -22,7 +22,8 @@ import pandas as pd
 _URL = "https://github.com/tlfvincent/ml-resources/blob/main/README.md"
 
 # https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-_GITHUB_TOKEN = "your_github_token"
+# _GITHUB_TOKEN = "your_github_token"
+_GITHUB_TOKEN = "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"
 
 
 def extract_data(url):
@@ -98,6 +99,9 @@ def extract_github_repo_statistics(github_repo_links, print_out=True):
             repo_stats = g.get_repo(repo_name)
 
             github_stats[repo_name] = [
+                repo_stats._name.value,
+                repo_stats._homepage.value,
+                repo_stats._description.value,
                 repo_stats.watchers_count,
                 repo_stats.subscribers_count,
                 repo_stats.get_commits()[0].last_modified,
@@ -130,12 +134,15 @@ if __name__ == "__main__":
         github_stats,
         orient="index",
         columns=[
-            "watchers_cnt",
-            "subscribers_cnt",
-            "last_modified_at",
-            "last_release_at",
-            "contributor_cnt"
+            "Name",
+            "Homepage",
+            "Description",
+            "Watchers",
+            "Subscribers",
+            "Last Modification Date",
+            "Last Release Date",
+            "Contributor Count"
         ]
     )
 
-    print(results)
+    repo_markdown = results.to_markdown(index=False)
