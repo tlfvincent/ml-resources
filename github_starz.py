@@ -129,7 +129,7 @@ if __name__ == "__main__":
         readme + "\n\n\n" + repo_markdown
     )
 
-    this_repo = g.get_repo("tlfvincent/ml-resources")
+    this_repo = gh.get_repo("tlfvincent/ml-resources")
     contents = this_repo.get_contents("README.md", ref="main")
 
     this_repo.update_file(
