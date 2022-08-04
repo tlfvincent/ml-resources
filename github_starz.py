@@ -67,7 +67,7 @@ def extract_github_repo_statistics(gh, github_repo_links, print_out=True):
 
     github_stats = {}
 
-    for link in github_repo_links[0:5]:
+    for link in github_repo_links:
         try:
             repo_name = link.split('github.com/')[1]
             repo_stats = gh.get_repo(repo_name)
