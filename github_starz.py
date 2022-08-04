@@ -125,8 +125,14 @@ if __name__ == "__main__":
 
     repo_markdown = results.to_markdown(index=False)
 
+    # Replace the table in the README by finding this hacky start and end template.
+    start_pattern = "<!-- BEGIN MARKDOWN TABLE -->"
+    end_pattern = "<!-- END MARKDOWN TABLE -->"
+    start_index = readme.find(start_pattern) + len(start_pattern)
+    end_index = readme.find("<!-- END MARKDOWN TABLE -->")
+
     readme = (
-        readme + "\n\n\n" + repo_markdown
+        readme[:start_index] + "\n" + repo_markdown + "\n" + readme[end_index:]
     )
 
     this_repo = gh.get_repo("tlfvincent/ml-resources")
