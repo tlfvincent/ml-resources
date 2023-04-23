@@ -16,7 +16,7 @@ jobs:
       with:
         python-version: 3.11.0
     - name: Install lbxml dependencies
-      run: sudo apt-get install -y libxslt libxml2
+      run: sudo apt-get install -y libxml2 libxslt1-dev
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
